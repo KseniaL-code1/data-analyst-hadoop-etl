@@ -1,3 +1,28 @@
-# Main Documentation
+# ETL и анализ данных (Hadoop, Spark, Hive)
 
-This repository contains various resources for data analysis and ETL processes in Hadoop.
+## Описание
+Реализован ETL-пайплайн для обработки e-commerce данных с использованием Hadoop-экосистемы.
+
+## Стек
+- HDFS
+- Hive
+- Spark (SQL, DataFrame API)
+- Parquet
+
+## Архитектура
+RAW → Hive → Spark → Data Mart
+
+## Что сделано
+- загрузка данных в HDFS
+- создание внешних таблиц в Hive
+- разработка ETL-процесса
+- построение Snowflake модели
+- анализ данных (агрегации, аномалии, пропуски)
+
+## Примеры анализа
+- анализ цен по категориям
+- анализ качества данных
+- выявление пропусков
+
+## Результат
+Подготовлена аналитическая модель для e-commerce анализа.
